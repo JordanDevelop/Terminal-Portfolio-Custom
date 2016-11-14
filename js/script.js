@@ -112,6 +112,9 @@ function enterKey() {
 	case 'c':
 		appendSection('contact');
 		break;
+	case 'clear':
+		clearSection('sections')
+		break;
 		/* case 'download':
 			window.location = 'resume.pdf'
 			break;
@@ -146,6 +149,11 @@ function appendSection(section) {
 	visibleSection.appendChild(newContent);
 	commandLine.scrollIntoView(true);
 	$('.container').scrollTop($('.container')[0].scrollHeight);
+}
+
+function clearSection(section) {
+	var newContent = document.createElement('div');
+	newContent.innerHTML = document.getElementById("visible-sections").innerHTML = "";
 }
 
 function backspaceKey() {
