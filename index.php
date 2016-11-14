@@ -31,11 +31,13 @@
 		<!-- initial header -->
 		<header class="ip-header">
 			<h1 class="ip-logo">
-									<style>
+				<!--
+				<style>
 					header.ip-header {
 						display: none;
 					}
 				</style>
+				-->
 			<script>
 				$(function () {
 					$(".welcome").typed({
@@ -161,7 +163,7 @@
 			</aside>
 		</div>
 		<div id="resume-container">
-<!--
+
 			<script type="application/javascript">
 				$(function () {
 					$(".type").typed({
@@ -170,7 +172,7 @@
 					});
 				});
 			</script>
--->
+
 			<div id="help-type">
 				<div class="type"></div>
 			</div>
