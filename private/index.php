@@ -41,7 +41,7 @@
 				<!-- initial header -->
 				<header class="ip-header">
 					<h1 class="ip-logo">
-
+						
 			<script>
 				$(function () {
 					$(".welcome").typed({
@@ -178,17 +178,17 @@
 		</div>
 		<div id="resume-container">
 
-			<script type="application/javascript">
+			<!--<script type="application/javascript">
 				$(function() {
 					$(".type").typed({
 						// Waits 1000ms after typing "First"
 						strings: ['^6500 type the command <font color="#44C8DA">help</font> to continue...']
 					});
 				});
-			</script>
+			</script>-->
 
 			<div id="help-type">
-				<div class="type"></div>
+				<div class="type">type the command <font color="#44C8DA">help</font> to continue...</div>
 			</div>
 			<div id="visible-sections"> </div>
 			<div class="blog-modal">
