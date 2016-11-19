@@ -138,6 +138,7 @@ body {
 	margin: 0;
 	box-sizing: border-box;
 	font-size: 0.9em;
+	scroll-behavior: smooth;
 }
 
 *,
@@ -229,6 +230,7 @@ footer ul li a:hover {
 	terminal version site
 	This is just a test of Github!
 ***/
+
 
 body {
 	margin: 0;

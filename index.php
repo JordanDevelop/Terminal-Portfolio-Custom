@@ -26,18 +26,27 @@
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
 </head>
+
 <body id="resume" tabindex="0">
 	<div class="container-fluid" id="container">
 		<!-- initial header -->
 		<header class="ip-header">
-			<h1 class="ip-logo">
-				<!--
+
+			<!-- <style>
+					header.ip-header {
+						display: none;
+					}
+				</style> -->
+			<div class="container-fluid" id="container">
+				<!-- initial header -->
+				<header class="ip-header">
+					<h1 class="ip-logo">
 				<style>
 					header.ip-header {
 						display: none;
 					}
 				</style>
-				-->
+
 			<script>
 				$(function () {
 					$(".welcome").typed({
@@ -48,6 +57,13 @@
 			</script>
 			<div class="welcome"></div>
 				</h1>
+					<div class="ip-loader">
+						<svg class="ip-inner" width="60px" height="60px" viewBox="0 0 80 80">
+					<path class="ip-loader-circlebg" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z" />
+					<path id="ip-loader-circle" class="ip-loader-circle" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z" /> </svg>
+					</div>
+				</header>
+			</div>
 			<div class="ip-loader">
 				<svg class="ip-inner" width="60px" height="60px" viewBox="0 0 80 80">
 					<path class="ip-loader-circlebg" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z" />
@@ -58,11 +74,11 @@
 	<!-- top bar -->
 	<div class="container">
 		<div class="codrops-top clearfix"></div>
-		
+
 		<script type="application/javascript">
 			$('#resume').starfield({
-				starDensity: 1.1
-				, mouseScale: 0.2
+				starDensity: 1.1,
+				mouseScale: 0.2
 			});
 		</script>
 		<article id="sections">
@@ -75,7 +91,8 @@
 					<div class="entry-details"> <span class="author">Author <a class="author-name" href="#">Jordan</a></span> <span class="posted-on">Posted on <a class="time-entry" href="#" rel="bookmark"> <time class="entry-date published updated" datetime="2016-10-30T20:35:07+00:00">October 30, 2016</time>
 					</a></span> </div>
 					<div class="entry-content">
-						<p class="blogPV hyphenate">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et ante purus. In tincidunt pulvinar elementum. Sed dignissim, felis nec suscipit luctus, ante mauris ullamcorper sem, rutrum interdum ipsum turpis in risus. Phasellus sagittis eu purus sit amet tincidunt. Morbi ligula enim, sagittis vitae velit vitae, elementum convallis eros...</p>
+						<p class="blogPV hyphenate">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et ante purus. In tincidunt pulvinar elementum. Sed dignissim, felis nec suscipit luctus, ante mauris ullamcorper sem, rutrum interdum ipsum turpis in risus. Phasellus sagittis
+							eu purus sit amet tincidunt. Morbi ligula enim, sagittis vitae velit vitae, elementum convallis eros...</p>
 						<!-- Large modal -->
 						<script>
 						</script>
@@ -91,7 +108,8 @@
 					<div class="entry-details"> <span class="author">Author <a class="author-name" href="#">Jordan</a></span> <span class="posted-on">Posted on <a class="time-entry" href="#" rel="bookmark"> <time class="entry-date published updated" datetime="2016-10-30T20:35:07+00:00">October 30, 2016</time>
 					</a></span> </div>
 					<div class="entry-content">
-						<p class="blogPV hyphenate">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et ante purus. In tincidunt pulvinar elementum. Sed dignissim, felis nec suscipit luctus, ante mauris ullamcorper sem, rutrum interdum ipsum turpis in risus. Phasellus sagittis eu purus sit amet tincidunt. Morbi ligula enim, sagittis vitae velit vitae, elementum convallis eros...</p>
+						<p class="blogPV hyphenate">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et ante purus. In tincidunt pulvinar elementum. Sed dignissim, felis nec suscipit luctus, ante mauris ullamcorper sem, rutrum interdum ipsum turpis in risus. Phasellus sagittis
+							eu purus sit amet tincidunt. Morbi ligula enim, sagittis vitae velit vitae, elementum convallis eros...</p>
 						<!-- Large modal -->
 						<script>
 						</script>
@@ -108,7 +126,8 @@
 					<div class="entry-details"> <span class="author">Author <a class="author-name" href="#">Jordan</a></span> <span class="posted-on">Posted on <a class="time-entry" href="#" rel="bookmark"> <time class="entry-date published updated" datetime="2016-10-30T20:35:07+00:00">October 30, 2016</time>
 					</a></span> </div>
 					<div class="entry-content">
-						<p class="blogPV hyphenate">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et ante purus. In tincidunt pulvinar elementum. Sed dignissim, felis nec suscipit luctus, ante mauris ullamcorper sem, rutrum interdum ipsum turpis in risus. Phasellus sagittis eu purus sit amet tincidunt. Morbi ligula enim, sagittis vitae velit vitae, elementum convallis eros...</p>
+						<p class="blogPV hyphenate">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et ante purus. In tincidunt pulvinar elementum. Sed dignissim, felis nec suscipit luctus, ante mauris ullamcorper sem, rutrum interdum ipsum turpis in risus. Phasellus sagittis
+							eu purus sit amet tincidunt. Morbi ligula enim, sagittis vitae velit vitae, elementum convallis eros...</p>
 						<!-- Large modal -->
 					</div>
 					<div class="custom-btn">
@@ -164,17 +183,17 @@
 		</div>
 		<div id="resume-container">
 
-			<script type="application/javascript">
-				$(function () {
+			<!--<script type="application/javascript">
+				$(function() {
 					$(".type").typed({
 						// Waits 1000ms after typing "First"
 						strings: ['^6500 type the command <font color="#44C8DA">help</font> to continue...']
 					});
 				});
-			</script>
+			</script>-->
 
 			<div id="help-type">
-				<div class="type"></div>
+				<div class="type">type the command <font color="#44C8DA">help</font> to continue...</div>
 			</div>
 			<div id="visible-sections"> </div>
 			<div class="blog-modal">
@@ -188,11 +207,11 @@
 		</div>
 	</div>
 	<div id="command-line"> <span>root@jordans.io ~ </span>
-		
+
 		<textarea id="commands" class="commands"></textarea>
 		<!-- <div id="commands" class="commands"><b></b></div> -->
 	</div>
-	
+
 	<!-- Latest compiled and minified JavaScript -->
 	<script type="text/javascript" src="js/marmotte.min.js"></script>
 	<script type="text/javascript" src="js/script-min.js"></script>
