@@ -31,13 +31,6 @@
 		<!-- initial header -->
 		<header class="ip-header">
 			<h1 class="ip-logo">
-
-				<style>
-					header.ip-header {
-						display: none;
-					}
-				</style>
-
 			<script>
 				$(function () {
 					$(".welcome").typed({
@@ -138,23 +131,11 @@
 				<h2 class="twilio">Please enter a valid phone number:</h2> </section>
 		</article>
 		<aside id="help" class="section">
-			<h2><!-- Commands: --></h2>
 			<p>Type any of the following commands to find out more about me:</p>
 			<ul class="help">
 				<li>blog</li>
 				<li>contact</li>
 				<li>clear</li>
-				<!--
-				<li>experience</li>
-				<li>education</li>
-				<li>skills</li>
-				<li>interests</li>
-				<li>contact</li>
-				<li>book</li>
-				<li>everything</li>
-				<li>asteroids</li>
-				<li>download - to download a PDF of all sections</li>
--->
 			</ul>
 		</aside>
 		<div class="container-fluid">
@@ -190,7 +171,6 @@
 	<div id="command-line"> <span>root@jordans.io ~ </span>
 
 		<textarea id="commands" class="commands"></textarea>
-		<!-- <div id="commands" class="commands"><b></b></div> -->
 	</div>
 
 	<!-- Latest compiled and minified JavaScript -->
