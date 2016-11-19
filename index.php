@@ -31,13 +31,11 @@
 		<!-- initial header -->
 		<header class="ip-header">
 			<h1 class="ip-logo">
-				<!--
 				<style>
 					header.ip-header {
 						display: none;
 					}
 				</style>
-				-->
 			<script>
 				$(function () {
 					$(".welcome").typed({
@@ -58,7 +56,7 @@
 	<!-- top bar -->
 	<div class="container">
 		<div class="codrops-top clearfix"></div>
-		
+
 		<script type="application/javascript">
 			$('#resume').starfield({
 				starDensity: 1.1
@@ -164,17 +162,17 @@
 		</div>
 		<div id="resume-container">
 
-			<script type="application/javascript">
+			<!-- <script type="application/javascript">
 				$(function () {
 					$(".type").typed({
 						// Waits 1000ms after typing "First"
 						strings: ['^6500 type the command <font color="#44C8DA">help</font> to continue...']
 					});
 				});
-			</script>
+			</script> -->
 
 			<div id="help-type">
-				<div class="type"></div>
+				<div class="type">type the command <font color="#44C8DA">help</font> to continue...</div>
 			</div>
 			<div id="visible-sections"> </div>
 			<div class="blog-modal">
@@ -188,11 +186,11 @@
 		</div>
 	</div>
 	<div id="command-line"> <span>root@jordans.io ~ </span>
-		
+
 		<textarea id="commands" class="commands"></textarea>
 		<!-- <div id="commands" class="commands"><b></b></div> -->
 	</div>
-	
+
 	<!-- Latest compiled and minified JavaScript -->
 	<script type="text/javascript" src="js/marmotte.min.js"></script>
 	<script type="text/javascript" src="js/script-min.js"></script>
