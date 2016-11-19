@@ -80,17 +80,6 @@
                 <li>blog</li>
                 <li>contact</li>
                 <li>clear</li>
-                <!--
-				<li>experience</li>
-				<li>education</li>
-				<li>skills</li>
-				<li>interests</li>
-				<li>contact</li>
-				<li>book</li>
-				<li>everything</li>
-				<li>asteroids</li>
-				<li>download - to download a PDF of all sections</li>
--->
             </ul>
         </aside>
         <aside id="blog" class="section">
@@ -160,7 +149,6 @@
     <div id="command-line"> <span>root@jordans.io ~ </span>
 
         <textarea id="commands" class="commands"></textarea>
-        <!-- <div id="commands" class="commands"><b></b></div> -->
     </div>
 
     <!-- Latest compiled and minified JavaScript -->
