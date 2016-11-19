@@ -26,6 +26,7 @@
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
 </head>
+
 <body id="resume" tabindex="0">
 	<div class="container-fluid" id="container">
 		<!-- initial header -->
@@ -59,8 +60,8 @@
 
 		<script type="application/javascript">
 			$('#resume').starfield({
-				starDensity: 1.1
-				, mouseScale: 0.2
+				starDensity: 1.1,
+				mouseScale: 0.2
 			});
 		</script>
 		<article id="sections">
@@ -73,7 +74,8 @@
 					<div class="entry-details"> <span class="author">Author <a class="author-name" href="#">Jordan</a></span> <span class="posted-on">Posted on <a class="time-entry" href="#" rel="bookmark"> <time class="entry-date published updated" datetime="2016-10-30T20:35:07+00:00">October 30, 2016</time>
 					</a></span> </div>
 					<div class="entry-content">
-						<p class="blogPV hyphenate">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et ante purus. In tincidunt pulvinar elementum. Sed dignissim, felis nec suscipit luctus, ante mauris ullamcorper sem, rutrum interdum ipsum turpis in risus. Phasellus sagittis eu purus sit amet tincidunt. Morbi ligula enim, sagittis vitae velit vitae, elementum convallis eros...</p>
+						<p class="blogPV hyphenate">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et ante purus. In tincidunt pulvinar elementum. Sed dignissim, felis nec suscipit luctus, ante mauris ullamcorper sem, rutrum interdum ipsum turpis in risus. Phasellus sagittis
+							eu purus sit amet tincidunt. Morbi ligula enim, sagittis vitae velit vitae, elementum convallis eros...</p>
 						<!-- Large modal -->
 						<script>
 						</script>
@@ -89,7 +91,8 @@
 					<div class="entry-details"> <span class="author">Author <a class="author-name" href="#">Jordan</a></span> <span class="posted-on">Posted on <a class="time-entry" href="#" rel="bookmark"> <time class="entry-date published updated" datetime="2016-10-30T20:35:07+00:00">October 30, 2016</time>
 					</a></span> </div>
 					<div class="entry-content">
-						<p class="blogPV hyphenate">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et ante purus. In tincidunt pulvinar elementum. Sed dignissim, felis nec suscipit luctus, ante mauris ullamcorper sem, rutrum interdum ipsum turpis in risus. Phasellus sagittis eu purus sit amet tincidunt. Morbi ligula enim, sagittis vitae velit vitae, elementum convallis eros...</p>
+						<p class="blogPV hyphenate">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et ante purus. In tincidunt pulvinar elementum. Sed dignissim, felis nec suscipit luctus, ante mauris ullamcorper sem, rutrum interdum ipsum turpis in risus. Phasellus sagittis
+							eu purus sit amet tincidunt. Morbi ligula enim, sagittis vitae velit vitae, elementum convallis eros...</p>
 						<!-- Large modal -->
 						<script>
 						</script>
@@ -106,7 +109,8 @@
 					<div class="entry-details"> <span class="author">Author <a class="author-name" href="#">Jordan</a></span> <span class="posted-on">Posted on <a class="time-entry" href="#" rel="bookmark"> <time class="entry-date published updated" datetime="2016-10-30T20:35:07+00:00">October 30, 2016</time>
 					</a></span> </div>
 					<div class="entry-content">
-						<p class="blogPV hyphenate">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et ante purus. In tincidunt pulvinar elementum. Sed dignissim, felis nec suscipit luctus, ante mauris ullamcorper sem, rutrum interdum ipsum turpis in risus. Phasellus sagittis eu purus sit amet tincidunt. Morbi ligula enim, sagittis vitae velit vitae, elementum convallis eros...</p>
+						<p class="blogPV hyphenate">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et ante purus. In tincidunt pulvinar elementum. Sed dignissim, felis nec suscipit luctus, ante mauris ullamcorper sem, rutrum interdum ipsum turpis in risus. Phasellus sagittis
+							eu purus sit amet tincidunt. Morbi ligula enim, sagittis vitae velit vitae, elementum convallis eros...</p>
 						<!-- Large modal -->
 					</div>
 					<div class="custom-btn">
@@ -115,25 +119,19 @@
 					</div>
 				</section>
 			</section>
+      <section id="portfolio" class="section">
+        <h1>Portfolio</h1>
+      </section>
 			<section id="contact" class="section">
 				<ul class="entry">
-					<li><strong class="contact">Email:</strong> <a href="mailto:jordan@behladesign.com">jordan@behladesign.com</a></li>
-					<li><strong class="contact">Facebook:</strong> <a href="https://facebook.com">https://facebook.com</a></li>
-					<li><strong class="contact">Twitter:</strong> <a href="https://twitter">https://twitter.com</a></li>
+					<li><strong class="contact">Email:</strong> <a class="contact-links" href="mailto:jordan@behladesign.com">jordan@behladesign.com</a></li>
+					<li><strong class="contact">Facebook:</strong> <a class="contact-links" href="https://facebook.com">https://facebook.com</a></li>
+					<li><strong class="contact">Twitter:</strong> <a class="contact-links" href="https://twitter">https://twitter.com</a></li>
 				</ul>
 				<div class="contact-submit">
 					<button type="button" class="contact btn btn-primary btn-sm" data-toggle="modal" data-target="#contactModal">Contact</button>
 				</div>
 			</section>
-		</article>
-		<article class="twilio-instructions">
-			<section id="twilio" class="section">
-				<h2 class="twilio">Please enter your mobile number:</h2>
-				<h3 class="twilio">(numbers are not stored and you will not be spammed, honest)</h3> </section>
-			<section id="twilio-in-progress" class="section">
-				<h2 class="twilio">Calling, please wait...</h2> </section>
-			<section id="twilio-error" class="section">
-				<h2 class="twilio">Please enter a valid phone number:</h2> </section>
 		</article>
 		<aside id="help" class="section">
 			<h2><!-- Commands: --></h2>
@@ -172,7 +170,8 @@
 			</script> -->
 
 			<div id="help-type">
-				<div class="type">type the command <font color="#44C8DA">help</font> to continue...</div>
+				<div class="type">type the command
+					<font color="#44C8DA">help</font> to continue...</div>
 			</div>
 			<div id="visible-sections"> </div>
 			<div class="blog-modal">
@@ -193,9 +192,9 @@
 
 	<!-- Latest compiled and minified JavaScript -->
 	<script type="text/javascript" src="js/marmotte.min.js"></script>
-	<script type="text/javascript" src="js/script-min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
 	<script type="text/javascript" src="js/classie.js"></script>
-	<script type="text/javascript" src="js/pathLoader.js"></script>
+	<script type="text/javascript" src=">s/pathLoader.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
 	<script type="text/javascript" src="js/modalEffects.js"></script>
 </body>
