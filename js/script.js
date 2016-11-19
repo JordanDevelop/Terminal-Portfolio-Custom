@@ -99,6 +99,22 @@ function enterKey() {
         case 'clear':
             clearSection();
             break;
+            /* case 'download':
+            	window.location = 'resume.pdf'
+            	break;
+            case 'exit':
+            	window.location = 'http://adamonishi.com';
+            	break;
+            case 'asteroids':
+            	window.location = 'asteroids';
+            	break;
+            case 'book':
+            	window.location = 'http://www.amazon.co.uk/gp/product/1430259140/ref=as_li_ss_il?ie=UTF8&camp=1634&creative=19450&creativeASIN=1430259140&linkCode=as2&tag=adamonishicom-21';
+            	break;
+            case 'twilio':
+            	twilio_start = true;
+            	appendSection('twilio');
+            	break;*/
         default:
             if (sectionsArray.indexOf(command) >= 0) {
                 appendSection(command);
