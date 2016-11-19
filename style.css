@@ -212,6 +212,11 @@ h4 {
     margin: 0;
 }
 
+.list-test {
+  margin-right: 25px;
+  float:left;
+}
+
 #resume-container {
     overflow-y: scroll;
     overflow-x: hidden;
@@ -271,7 +276,7 @@ section {
     border-bottom: 1px solid black !important;
 }
 
-p.error, ul.skills, ul.help {
+p.error, ul.skills, ul.help, .blog-list {
     /* border-bottom: 1px black solid; */
     padding-bottom: 15px;
     margin-top: 0px;
@@ -368,7 +373,7 @@ p.error {
     margin: 0;
 }
 
-#sections, #help, #error, .twilio-instructions {
+#sections, #help, #error, #blog, .twilio-instructions {
     display: none;
 }
 
@@ -919,6 +924,10 @@ p {
 }
 
 aside#help {
+    border-top: 1px solid black !important;
+}
+
+aside#blog {
     border-top: 1px solid black !important;
 }
 

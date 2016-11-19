@@ -16,7 +16,7 @@
  * CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
  * IN THE SOFTWARE.
  **/
- /* , "education", "about", "skills", "blog", "interests", "design"], */
+/* , "education", "about", "skills", "blog", "interests", "design"], */
 var sectionsArray = ["blog", "contact", "portfolio"],
     pastCommands = [],
     commandLine = document.querySelector('#command-line .commands'),
@@ -77,35 +77,24 @@ function enterKey() {
     completed.classList.add('completed-command');
     completed.innerHTML = document.getElementById('command-line').innerHTML.replace('<textarea id="commands" class="commands">', '<div class="output">');
     visibleSection.appendChild(completed);
-    if (twilio_start) {
-        twilio_start = false;
-        if (command.length !== 11) {
-            appendSection('twilio-error');
-            commandLine.innerHTML = '';
-            return;
-        }
-        if (!isNaN(command)) {
-            marmottajax.post({
-                url: "https://www.dev.jordans.io/quickstart.js",
-                options: {
-                    to_number: command,
-                    twilio_go: 'go'
-                }
-            }).then(function(result) {
-                consoe.log(result);
-            });
-            appendSection('twilio-in-progress');
-        }
-        commandLine.innerHTML = '';
-        return;
-    }
     // Work out what command is running
+    var sp = '\u00A0';
     switch (command) {
+
         case 'everything':
             appendSection('sections');
             break;
         case 'help':
             appendSection(command);
+            break;
+        case 'blog':
+            appendSection(command);
+            break;
+        case 'blog' + sp + '-n':
+            appendSection('blog-new');
+            break;
+        case 'blog' + sp + '-l':
+            appendSection('blog-latest');
             break;
         case 'clear':
             clearSection();
