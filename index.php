@@ -32,6 +32,11 @@
         <!-- initial header -->
         <header class="ip-header">
             <h1 class="ip-logo">
+				<style>
+					header.ip-header {
+						display: none;
+					}
+				</style>
 			<script>
 				$(function () {
 					$(".welcome").typed({
@@ -85,12 +90,14 @@
                     <ul>
                         <li>blog -n</li>
                         <li>blog -l</li>
+                        <li>blog -c</li>
                     </ul>
                 </div>
                 <div class="list-next">
                     <ul>
                         <li>most recent post</li>
                         <li>latest posts</li>
+                        <li>categories</li>
                     </ul>
                 </div>
             </div>
@@ -102,19 +109,33 @@
         </div>
         <div id="resume-container">
 
-            <script type="application/javascript">
-                $(function() {
-                    $(".type").typed({
-                        // Waits 1000ms after typing "First"
-                        strings: ['^6500 type the command <font color="#44C8DA">help</font> to continue...']
-                    });
-                });
-            </script>
+            <!-- <script type="application/javascript">
+				$(function () {
+					$(".type").typed({
+						// Waits 1000ms after typing "First"
+						strings: ['^6500 type the command <font color="#44C8DA">help</font> to continue...']
+					});
+				});
+			</script> -->
 
             <div id="help-type">
-                <div class="type"></div>
+                <div class="type">type the command
+                    <font color="#44C8DA">help</font> to continue...</div>
             </div>
             <div id="visible-sections"> </div>
+            <!-- Testing new commands
+            <div id="visible-sections">
+
+                <div class="completed-command"> <span>root@jordans.io ~ </span>
+
+                    <div class="output">blog
+                    </div>
+                </div>
+                <div>
+                  <h1>Testing</h1>
+                </div>
+            </div>
+            -->
             <div class="blog-modal">
                 <script type="application/javascript">
                     document.write(blogModal);
