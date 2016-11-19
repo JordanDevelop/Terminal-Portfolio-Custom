@@ -6,4 +6,3 @@ Live demo can be seen at https://www.dev.jordans.io
 
 Once everything is done on the frontend I plan on integrating this with WordPress.
 
-Development Branch
