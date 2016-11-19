@@ -31,13 +31,13 @@
 		<!-- initial header -->
 		<header class="ip-header">
 			<h1 class="ip-logo">
-				<!--
+
 				<style>
 					header.ip-header {
 						display: none;
 					}
 				</style>
-				-->
+
 			<script>
 				$(function () {
 					$(".welcome").typed({
@@ -58,7 +58,7 @@
 	<!-- top bar -->
 	<div class="container">
 		<div class="codrops-top clearfix"></div>
-		
+
 		<script type="application/javascript">
 			$('#resume').starfield({
 				starDensity: 1.1
@@ -188,11 +188,11 @@
 		</div>
 	</div>
 	<div id="command-line"> <span>root@jordans.io ~ </span>
-		
+
 		<textarea id="commands" class="commands"></textarea>
 		<!-- <div id="commands" class="commands"><b></b></div> -->
 	</div>
-	
+
 	<!-- Latest compiled and minified JavaScript -->
 	<script type="text/javascript" src="js/marmotte.min.js"></script>
 	<script type="text/javascript" src="js/script-min.js"></script>
